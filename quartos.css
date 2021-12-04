@@ -1,0 +1,70 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Source sans Pro', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url('assets/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+}
+
+.texto_quartos {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.texto_quartos h2 {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: var(--main-font-size)
+}
+
+.texto_quartos p {
+    font-size: var(--fonte-terciaria);
+    font-weight: 390;
+}
+
+.quartos_imagens {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.quarto_imagem {
+    padding-right: 5px;
+}
+
+.quarto_imagem img {
+    width: 290px;
+    height: 200px;
+}
+
+.quarto_imagem:last-child {
+    padding-right: 0px;
+}
+
+.texto_solteiro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px 20px 20px;
+}
+
+.lista_quartos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.lista_quarto li {
+    margin-top: 10px;
+    height: 40px;
+}

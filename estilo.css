@@ -1,0 +1,268 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Source sans Pro", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --fonte-primaria: 28px;
+  --fonte-secundaria: 22px;
+  --fonte-terciaria: 17px;
+  --cor-principal: #00836a;
+  --cor-secundaria: #fff;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 5px;
+  position: fixed;
+  border-bottom: 1px solid #d5d5d5;
+  background-color: #fff;
+}
+
+.menu_itens {
+  display: flex;
+}
+
+.menu_itens li {
+  margin-left: 10px;
+}
+
+.menu_itens li a {
+  display: block;
+  padding: 15px;
+  text-transform: uppercase;
+  line-height: 18px;
+  color: #3d3d3d;
+}
+
+.menu_itens li a:hover {
+  color: var(--cor-principal);
+}
+
+.logo {
+  font-size: 24px;
+  color: #3d3d3d;
+}
+
+.logo a {
+  padding: 10px;
+}
+
+.logo:hover span {
+  color: var(--cor-principal)
+}
+
+.logo span {
+  color: #6592c9;
+}
+
+
+.titulo_conteiner_imagem_h1 {
+  background-image: url("assets/img-fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo_imagem_h1 {
+  color: #fff;
+  font-size: var(--fonte-primaria);
+  background-color: #0a9077b3;
+  border: 1px solid;
+  padding: 25px 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.titulo_imagem_h1 h1 {
+  padding-bottom: 15px;
+}
+
+.texto_quarto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  padding: 60px 20px 40px 20px;
+  /* tentar trocar isso dps rsrs */
+}
+
+.texto_quarto h2 {
+  text-transform: uppercase;
+  font-size: var(--fonte-primaria);
+  padding: 0px 0px 20px 0px;
+  font-weight: 400;
+}
+
+.texto_quarto p {
+  font-size: var(--fonte-secundaria);
+  font-weight: 390;
+  text-transform: uppercase;
+}
+
+.quarto img {
+  width: 290px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.quarto {
+  padding: 20px;
+  border-radius: 5px;
+  margin-right: 1.2rem;
+}
+
+.quarto:last-child {
+  margin-right: 0px;
+}
+
+
+.quarto:hover {
+  background-color: var(--cor-principal);
+  color: white;
+
+}
+
+.quarto:hover p {
+  border-bottom: 2px solid var(--cor-secundaria);
+  color: white;
+}
+
+.quartos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.quarto p {
+  text-align: center;
+  color: #3d3d3d;
+  border-bottom: 2px solid var(--cor-principal);
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.rota {
+  text-align: center;
+  padding: 60px 0px 40px 0px;
+}
+
+.rota h2 {
+  font-weight: 400;
+  padding-bottom: 15px;
+  font-size: var(--fonte-primaria);
+}
+
+.rota p {
+  font-weight: 390;
+  font-size: var(--fonte-secundaria);
+}
+
+.sobre {
+  text-align: center;
+  padding: 60px 0px 40px 0px;
+}
+
+.sobre h2 {
+  font-weight: 400;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+
+}
+
+.sobre p {
+  font-weight: 390;
+
+}
+
+.descricoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  max-width: 1035px;
+  margin: 0 auto;
+}
+
+.descricao {
+  display: flex;
+  width: 45%;
+  margin: 0 10px;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.descricao_texto {
+  flex: 1 1 auto;
+}
+
+.descricao_imagem {
+  width: 100px;
+  height: 113px;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+.rodape-copyright {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #3b7863;
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+}
+
+.rodape {
+  background-color: #49997d;
+  color: #fff;
+}
+
+.rodape h4 {
+  font-size: var(--fonte-secundaria);
+}
+
+.rodape-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.rodape-info {
+  width: 23%;
+  display: flex;
+  align-items: center;
+}
+
+.rodape-link {
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.rodape-icone {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.rodape-info a {
+  text-decoration: none;
+  color: #fff;
+}
