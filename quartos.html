@@ -4,22 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <title>Quartos-Pousada Secreta</title>
-    <link rel="stylesheet" href="quartos.css">
+    <link rel="stylesheet" href="assets/style/quartos.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="assets/style/estilo.css">
 </head>
 
 <body>
     <header class="header">
-        <a class="logo" href="index.html">Pousada <span>Secreta</span></a>
-        <nav>
-            <ul class="menu_itens">
-                <li><a class="itens_menu" href="index.html#sobre">Sobre</a></li>
-                <li><a class="itens_menu" href="index.html#rota">Rota</a></li>
-                <li><a class="itens_menu" href="quartos.html">Quartos</a></li>
-            </ul>
-        </nav>
+        <ul>
+            <li class="header_lista">
+                <a href="home.html">
+                    <span class="icone"><img src="assets/img/icone_pousada.png"></span>
+                    <span class="header_texto_logo">Pousada</span>
+                </a>
+            </li>
+            <li class="header_lista">
+                <a href="home.html">
+                    <span class="icone">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="header_texto">Home</span>
+                </a>
+            </li>
+            <li class="header_lista">
+                <a href="index.html#rota">
+                    <span class="icone">
+                        <ion-icon name="map-outline"></ion-icon>
+                    </span>
+                    <span class="header_texto">Rota</span>
+                </a>
+            </li>
+            <li class="header_lista active">
+                <a href="quartos.html">
+                    <span class="icone">
+                        <ion-icon name="bed-outline"></ion-icon>
+                    </span>
+                    <span class="header_texto">Quartos</span>
+                </a>
+            </li>
+            <li class="header_lista">
+                <a href="ajuda.html">
+                    <span class="icone">
+                        <ion-icon name="help-circle-outline"></ion-icon>
+                    </span>
+                    <span class="header_texto">Ajuda</span>
+                </a>
+            </li>
+        </ul>
     </header>
     <main>
         <div class="background">
@@ -31,13 +63,13 @@
 
         <div class="quartos_imagens">
             <div class="quarto_imagem">
-                <img imagem src="assets/quarto-solteiro1.jpg" alt="Quarto de solteiro" title="Quarto de solteiro">
+                <img src="assets/img/quarto-solteiro1.jpg" alt="Quarto de solteiro" title="Quarto de solteiro">
             </div>
             <div class="quarto_imagem">
-                <img src="assets/quarto-solteiro2.jpg" alt="Quarto de solteiro" title="Quarto de solteiro">
+                <img src="assets/img/quarto-solteiro2.jpg" alt="Quarto de solteiro" title="Quarto de solteiro">
             </div>
             <div class="quarto_imagem">
-                <img src="assets/quarto-solteiro3.jpg" alt="Quarto de solteiro" title="Quarto de solteiro">
+                <img src="assets/img/quarto-solteiro3.jpg" alt="Quarto de solteiro" title="Quarto de solteiro">
             </div>
         </div>
         <div class="texto_solteiro">
@@ -192,8 +224,9 @@
             </div>
         </div>
     </div>
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="assets/js/menu.js"></script>
 </body>
 
 </html>
-descricao
