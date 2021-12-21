@@ -1,5 +1,4 @@
 const lista = document.querySelectorAll('.menu__item');
-console.log(lista)
 
 function linkAtivo() {
     lista.forEach((item) =>
