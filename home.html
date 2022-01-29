@@ -1,88 +1,95 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pousada Secreta</title>
+    <link rel="stylesheet" href="assets/style/estilo.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+    />
+    <link href="/website/css/uicons-bold-rounded." rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <title>Pousada Secreta</title>
-  <link rel="stylesheet" href="assets/style/estilo.css" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" />
-  <link href="/website/css/uicons-bold-rounded." rel="stylesheet">
-</head>
+  <body>
+    <header class="menu">
+      <ul>
+        <li class="menu__item">
+          <a href="home.html">
+            <span class="item__icone"
+              ><img src="assets/img/icone_pousada.png"
+            /></span>
+            <span class="item__texto logo">Pousada Secreta</span>
+          </a>
+        </li>
 
-<body>
-  <header class="menu">
+        <li class="menu__item active">
+          <a href="home.html">
+            <span class="item__icone">
+              <ion-icon name="home-outline"></ion-icon>
+            </span>
+            <span class="item__texto">Home</span>
+          </a>
+        </li>
 
-    <ul>
+        <li class="menu__item">
+          <a href="quartos.html">
+            <span class="item__icone">
+              <ion-icon name="bed-outline"></ion-icon>
+            </span>
+            <span class="item__texto">Quartos</span>
+          </a>
+        </li>
+      </ul>
+    </header>
 
-      <li class="menu__item">
-        <a href="home.html">
-          <span class="item__icone"><img src="assets/img/icone_pousada.png"></span>
-          <span class="item__texto logo">Pousada Secreta</span>
-        </a>
-      </li>
-
-      <li class="menu__item active">
-        <a href="home.html">
-          <span class="item__icone">
-            <ion-icon name="home-outline"></ion-icon>
-          </span>
-          <span class="item__texto">Home</span>
-        </a>
-      </li>
-
-      <li class="menu__item">
-        <a href="quartos.html">
-          <span class="item__icone">
-            <ion-icon name="bed-outline"></ion-icon>
-          </span>
-          <span class="item__texto">Quartos</span>
-        </a>
-      </li>
-
-    </ul>
-
-  </header>
-
-  <section>
-    <div class="imagemBackground">
-      <div class="imagemBackground__texto">
-        <h1>Pousada Secreta</h1>
-        <p>A pousada reservada em Angra dos Reis</p>
+    <section>
+      <div class="imagemBackground">
+        <div class="imagemBackground__texto">
+          <h1>Pousada Secreta</h1>
+          <p>A pousada reservada em Angra dos Reis</p>
+        </div>
       </div>
-    </div>
-  </section>
-  <div class="textoQuartos">
-
-    <h2>Seja bem-vindo(a)!</h2>
-    <p>Relaxe em nossas acomodações e curta o melhor de Angra dos Reis.</p>
-    <p>Temos quartos para solteiro, casal ou família.</p>
-
-  </div>
-
-  <section class="quarto">
-
-    <div class="quarto__conteudo" data-anima="left">
-      <img src="assets/img/quarto-solteiro1.jpg" alt="Quarto de solteiro" title="Quarto de solteiro" />
-      <h3>Quarto de Solteiro</h3>
-      <a href="quartos.html" class="btn">Reserve já</a>
+    </section>
+    <div class="textoQuartos">
+      <h2>Seja bem-vindo(a)!</h2>
+      <p>Relaxe em nossas acomodações e curta o melhor de Angra dos Reis.</p>
+      <p>Temos quartos para solteiro, casal ou família.</p>
     </div>
 
-    <div class="quarto__conteudo" data-anima="center">
-      <img src="assets/img/quarto-casal3.jpg" alt="Quarto de casal" title="Quarto de casal" />
-      <h3>Quarto de Casal</h3>
-      <a href="quartos.html" class="btn">Reserve já</a>
-    </div>
+    <section class="quarto">
+      <div class="quarto__conteudo" data-anima="left">
+        <img
+          src="assets/img/quarto-solteiro1.jpg"
+          alt="Quarto de solteiro"
+          title="Quarto de solteiro"
+        />
+        <h3>Quarto de Solteiro</h3>
+        <a href="quartos.html" class="btn">Reserve já</a>
+      </div>
 
-    <div class="quarto__conteudo" data-anima="rigth">
-      <img src="assets/img/quarto-familia1.jpg" alt="Quarto família" title="Quarto família" />
-      <h3>Quarto Família</h3>
-      <a href="quartos.html" class="btn">Reserve já</a>
-    </div>
+      <div class="quarto__conteudo" data-anima="center">
+        <img
+          src="assets/img/quarto-casal3.jpg"
+          alt="Quarto de casal"
+          title="Quarto de casal"
+        />
+        <h3>Quarto de Casal</h3>
+        <a href="quartos.html" class="btn">Reserve já</a>
+      </div>
 
-  </section>
+      <div class="quarto__conteudo" data-anima="rigth">
+        <img
+          src="assets/img/quarto-familia1.jpg"
+          alt="Quarto família"
+          title="Quarto família"
+        />
+        <h3>Quarto Família</h3>
+        <a href="quartos.html" class="btn">Reserve já</a>
+      </div>
+    </section>
 
-  <!--<div id="rota" class="rota">
+    <!--<div id="rota" class="rota">
       <h2>Rota</h2>
 
       <p>Veja como chegar até a pousada.</p>
@@ -94,122 +101,117 @@
         width="100%" height="350" frameborder="0" allowfullscreen></iframe>
     </div> criar uma parte propria para isso dps-->
 
-  <div class="descricaoTexto">
-    <h2>Sobre a pousada!</h2>
-    <p>Conheça um pouco sobre nossa pousada.</p>
-  </div>
-
-  <section class="descricao">
-
-    <div class="descricao__conteudo">
-
-      <div class="conteudo__texto">
-        <h3>A pousada</h3>
-        <p>
-          A Pousada Dev dispõe de estacionamento privativo gratuito, piscina
-          ao ar livre e bar.
-        </p>
-      </div>
-
-      <div>
-        <img class="conteudo__imagem" src="assets/img/img1.jpg" alt="Faixada" title="Faixada" />
-      </div>
-
-    </div>
-    <div class="descricao__conteudo">
-
-      <div class="conteudo__texto">
-        <h3>Nossos quartos</h3>
-        <p>
-          Os quartos possuem TV de tela plana, cozinha compacta e
-          área para refeições, as unidades da Pousada contam
-          com ar-condicionado e guarda-roupa.
-        </p>
-      </div>
-
-      <div>
-        <img class="conteudo__imagem" src="assets/img/img2.jpg" alt="Quartos" title="Quartos" />
-      </div>
-
+    <div class="descricaoTexto">
+      <h2>Sobre a pousada!</h2>
+      <p>Conheça um pouco sobre nossa pousada.</p>
     </div>
 
-    <div class="descricao__conteudo">
-
-      <div class="conteudo__texto">
-        <h3>Alimentação</h3>
-        <p>
-          A pousada serve café da manhã em estilo continental ou buffet.
-          Nossos restaurantes funcionam 24hrs.
-        </p>
+    <section class="carousel">
+      <div
+        data-js="carousel__item"
+        class="carousel__item carousel__item--visible"
+      >
+        <img src="./assets/img/img1.jpg" />
+        <div class="txt">
+          <h3>A pousada</h3>
+          <p>
+            A Pousada Dev dispõe de estacionamento privativo gratuito, piscina
+            ao ar livre e bar.
+          </p>
+        </div>
       </div>
 
-      <div>
-        <img class="conteudo__imagem" src="assets/img/img3.jpg" alt="Restaurante" title="Restaurante" />
+      <div data-js="carousel__item" class="carousel__item">
+        <img src="./assets/img/img2.jpg" />
+        <div class="txt">
+          <h3>Nossos quartos</h3>
+          <p>
+            Os quartos possuem TV de tela plana, cozinha compacta e área para
+            refeições, as unidades da Pousada contam com ar-condicionado e
+            guarda-roupa.
+          </p>
+        </div>
       </div>
 
-    </div>
-
-    <div class="descricao__conteudo">
-
-      <div class="conteudo__texto">
-        <h3>Recepção</h3>
-        <p>Nossa recepção fica aberta 24hrs.</p>
+      <div data-js="carousel__item" class="carousel__item">
+        <img src="./assets/img/img3.jpg" />
+        <div class="txt">
+          <h3>Alimentação</h3>
+          <p>
+            A pousada serve café da manhã em estilo continental ou buffet.
+            Nossos restaurantes funcionam 24hrs.
+          </p>
+        </div>
       </div>
 
-      <div>
-        <img class="conteudo__imagem" src="assets/img/img5.jpg" alt="Recepção" title="Recepção" />
+      <div class="carousel__actions">
+        <button data-js="carousel__button--prev" aria-label="Slide anterior">
+          <ion-icon name="chevron-back-outline"></ion-icon>
+        </button>
+
+        <button data-js="carousel__button--next" aria-label="Próximo slide">
+          <ion-icon name="chevron-forward-outline"></ion-icon>
+        </button>
       </div>
+    </section>
 
-    </div>
+    <footer class="rodape">
+      <div class="tamanho-maximo-container rodape__container">
+        <div class="rodape__info">
+          <h4>Entre em contato conosco:</h4>
+        </div>
 
-  </section>
+        <a
+          class="rodape__info rodape__link"
+          target="_blank"
+          href="https://goo.gl/maps/wPAS58QxiTopxK6w7"
+        >
+          <img
+            class="rodape-icone"
+            src="assets/icones/endereco.png"
+            alt="Ícone endereco"
+            title="Ícone endereco"
+          />
+          <p>Endereço Av. 123, 222 - Rio de Janeiro RJ</p>
+        </a>
 
-  <footer class="rodape">
+        <div class="rodape__info">
+          <img
+            class="rodape-icone"
+            src="assets/icones/telefone.png"
+            alt="Ícone telefone"
+            title="Ícone telefone"
+          />
+          <p>Cel: 5521000000000</p>
+        </div>
 
-    <div class="tamanho-maximo-container rodape__container">
+        <a
+          class="rodape__info rodape__link"
+          target="_blank"
+          href="https://www.booking.com/searchresults.pt-br.html?aid=375635;label=msn-wLZ0m4wRNI00wFHQAaaO3w-79920787059858%3Atikwd-79920803013016%3Aaud-808219487%3Aloc-20%3Aneo%3Amte%3Adec%3Aqsbooking;sid=9ca5cbe6c9db71b34b98c0738ea780f4;dest_id=-666610;dest_type=city&"
+        >
+          <img
+            class="rodape-icone"
+            src="assets/icones/calendario.png"
+            alt="Ícone calendario"
+            title="Ícone calendario"
+          />
+          <p>Faça sua reserva pelo Booking.com</p>
+        </a>
 
-      <div class="rodape__info">
-        <h4>Entre em contato conosco:</h4>
+        <div class="rodape__copyright">© Copyright - PousadaDev</div>
       </div>
-
-      <a class="rodape__info rodape__link" target="_blank" href="https://goo.gl/maps/wPAS58QxiTopxK6w7">
-        <img class="rodape-icone" src="assets/icones/endereco.png" alt="Ícone endereco" title="Ícone endereco" />
-        <p>
-          Endereço
-          Av. 123, 222 - Rio de Janeiro RJ
-        </p>
-      </a>
-
-      <div class="rodape__info">
-
-        <img class="rodape-icone" src="assets/icones/telefone.png" alt="Ícone telefone" title="Ícone telefone" />
-        <p>
-          Cel: 5521000000000
-        </p>
-
-      </div>
-
-      <a class="rodape__info rodape__link" target="_blank"
-        href="https://www.booking.com/searchresults.pt-br.html?aid=375635;label=msn-wLZ0m4wRNI00wFHQAaaO3w-79920787059858%3Atikwd-79920803013016%3Aaud-808219487%3Aloc-20%3Aneo%3Amte%3Adec%3Aqsbooking;sid=9ca5cbe6c9db71b34b98c0738ea780f4;dest_id=-666610;dest_type=city&">
-        <img class="rodape-icone" src="assets/icones/calendario.png" alt="Ícone calendario" title="Ícone calendario" />
-        <p>
-          Faça sua reserva pelo Booking.com
-        </p>
-      </a>
-
-      <div class="rodape__copyright">
-        © Copyright - PousadaDev
-      </div>
-
-    </div>
-
-  </footer>
-
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <script src="assets/js/menu.js"></script>
-  <script src="assets/js/anima.js"></script>
-
-</body>
-
+    </footer>
+    <script src="assets/js/carrossel.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/anima.js"></script>
+  </body>
 </html>
