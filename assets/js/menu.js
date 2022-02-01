@@ -1,9 +1,7 @@
-const lista = document.querySelectorAll(".menu__item");
+const body = document.querySelector("body"),
+  sidebar = body.querySelector("nav"),
+  toggle = body.querySelector(".toggle");
 
-function linkAtivo() {
-  lista.forEach(
-    (item) => item.classList.remove("active"),
-    this.classList.add("active")
-  );
-}
-lista.forEach((item) => item.addEventListener("click", linkAtivo));
+toggle.addEventListener("click", () => {
+  sidebar.classList.toggle("close");
+});

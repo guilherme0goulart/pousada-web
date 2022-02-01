@@ -8,40 +8,53 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/style/estilo.css" />
   </head>
 
   <body>
-    <header class="menu">
-      <ul>
-        <li class="menu__item">
-          <a href="home.html">
-            <span class="item__icone"
-              ><img src="assets/img/icone_pousada.png"
-            /></span>
-            <span class="item__texto">Pousada</span>
-          </a>
-        </li>
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <span class="image">
+            <img class="logo" src="/assets/img/icone_pousada.png" alt="" />
+          </span>
 
-        <li class="menu__item">
-          <a href="home.html">
-            <span class="item__icone">
-              <ion-icon name="home-outline"></ion-icon>
-            </span>
-            <span class="item__texto">Home</span>
-          </a>
-        </li>
+          <div class="text logo-text">
+            <span class="name">Pousada Secreta</span>
+          </div>
+        </div>
 
-        <li class="menu__item active">
-          <a href="quartos.html">
-            <span class="item__icone">
-              <ion-icon name="bed-outline"></ion-icon>
-            </span>
-            <span class="item__texto">Quartos</span>
-          </a>
-        </li>
-      </ul>
-    </header>
+        <i class="bx bx-chevron-right toggle"></i>
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu">
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="home.html">
+                <i class="bx bx-home-alt icon"></i>
+                <span class="text nav-text">home</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="quartos.html">
+                <i class="bx bx-bed icon"></i>
+                <span class="text nav-text">Quartos</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <main>
       <div class="background"></div>
       <div id="quarto_solteiro" class="texto_quartos">
