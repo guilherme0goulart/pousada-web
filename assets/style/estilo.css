@@ -202,6 +202,7 @@ header .image-text .name {
   width: 100%;
   border-radius: 6px;
   text-decoration: none;
+  color: var(--cor-texto);
   transition: var(--tran-03);
 }
 
@@ -216,6 +217,7 @@ header .image-text .name {
 
 .barraLateral .menu-bar {
   height: calc(100% - 55px);
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
