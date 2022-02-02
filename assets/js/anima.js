@@ -1,20 +1,20 @@
-const animacao = document.querySelectorAll('[data-anima]');
-const animationClass = 'animate';
+const animacao = document.querySelectorAll("[data-anima]");
+const anima = "animate";
 
-function animeScroll() {
-    const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
-    animacao.forEach(function (element) {
-        if ((windowTop) > element.offsetTop) {
-            element.classList.add(animationClass)
-        } else {
-            element.classList.remove(animationClass)
-        }
-    })
+function animaScroll() {
+  const topoTela = window.pageYOffset + (window.innerHeight * 3) / 4;
+  animacao.forEach(function (element) {
+    if (topoTela > element.offsetTop) {
+      element.classList.add(anima);
+    } else {
+      element.classList.remove(anima);
+    }
+  });
 }
-animeScroll();
+animaScroll();
 
 if (animacao.length) {
-    window.addEventListener('scroll', function () {
-        animeScroll();
-    });
+  window.addEventListener("scroll", function () {
+    animaScroll();
+  });
 }

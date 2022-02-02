@@ -93,7 +93,7 @@ body {
   z-index: 100;
 }
 
-.sidebar.close {
+.sidebar {
   width: 88px;
 }
 
@@ -371,7 +371,7 @@ header .image-text .name {
 
 }
 
-.carousel {
+.carrossel {
   overflow: hidden;
   width: 40%;
   position: relative;
@@ -400,22 +400,22 @@ header .image-text .name {
   margin: auto;
 }
 
-.carousel .carousel__item,
-.carousel .carousel__item--hidden {
+.carrossel .carousel__item,
+.carrossel .carousel__item--hidden {
   display: none;
 }
 
-.carousel .carousel__item img {
+.carrossel .carousel__item img {
   width: 100%;
   height: 400px;
 }
 
-.carousel .carousel__item--visible {
+.carrossel .carousel__item--visible {
   display: block;
-  animation: fadeVisibility .5s;
+  animation: visibilidadeSlider .5s;
 }
 
-.carousel .carousel__actions {
+.carrossel .carousel__actions {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -424,7 +424,7 @@ header .image-text .name {
   transform: translateY(-50%);
 }
 
-.carousel .carousel__actions button {
+.carrossel .carousel__actions button {
   border-radius: 50px;
   display: flex;
   justify-content: center;
@@ -438,15 +438,15 @@ header .image-text .name {
   background-color: var(--cor-principal_opaca);
 }
 
-.carousel .carousel__actions button[data-js="carousel__button--prev"] {
+.carrossel .carousel__actions button[data-js="carousel__button--prev"] {
   margin-left: 20px;
 }
 
-.carousel .carousel__actions button[data-js="carousel__button--next"] {
+.carrossel .carousel__actions button[data-js="carousel__button--next"] {
   margin-right: 20px;
 }
 
-@keyframes fadeVisibility {
+@keyframes visibilidadeSlider {
   0% {
     opacity: 0;
   }
