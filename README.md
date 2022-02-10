@@ -7,7 +7,7 @@ Eu desenvolvi esse projeto em um curso da devmedia de css, porem com o tempo fui
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [ ] Melhorar reponsividade 
-- [ ] Adcionar uma seção de ajuda na home ou uma página separada
+- [ ] Adicionar uma seção de ajuda na home ou uma página separada
 - [ ] Tranformar a parte dos quartos em um "mostruario" (com oque há em cada quarto e etc)
 
 ## 🚀 Utilizando site da Pousada acessando o site abaixo:
