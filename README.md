@@ -10,6 +10,6 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Adicionar uma seção de ajuda na home ou uma página separada
 - [ ] Tranformar a parte dos quartos em um "mostruario" (com oque há em cada quarto e etc)
 
-## 🚀 Utilizando site da Pousada acessando o site abaixo:
+## 🚀 Utilize o site da pousada acessando o site abaixo:
 
 https://guilherme0goulart.github.io/pousada-web/
